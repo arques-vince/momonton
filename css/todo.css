@@ -1,0 +1,12 @@
+.todo {
+  font-size: 22px;
+}
+
+.todo__list {
+  margin-bottom: 20px;
+}
+
+.todo__button {
+  margin-right: 10px;
+  cursor: pointer;
+}
