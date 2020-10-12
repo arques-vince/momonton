@@ -1,5 +1,3 @@
-import { nanoid } from "nanoid";
-
 const toDo = () => {
   const toDoForm = document.querySelector(".todo"),
     toDoInput = toDoForm.querySelector(".todo__input"),
@@ -42,7 +40,7 @@ const toDo = () => {
     const delBtn = document.createElement("button");
     const span = document.createElement("span");
     if (!id) {
-      id = nanoid(6);
+      id = Date.now();
     }
 
     delBtn.classList.add("todo__button");
