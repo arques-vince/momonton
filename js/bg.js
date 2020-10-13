@@ -20,7 +20,7 @@ const bg = () => {
       return;
     }
 
-    body.style.backgroundImage = `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url(${parsedImage.url})`;
+    body.style.backgroundImage = `linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url(${parsedImage.url})`;
 
     const { name, city, country } = parsedImage;
     let text = name;
