@@ -10,7 +10,7 @@ const clock = () => {
 
   const init = () => {
     showTime();
-    setInterval(showTime, 1000);
+    setInterval(showTime, 100);
   };
 
   init();
