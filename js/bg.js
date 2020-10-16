@@ -1,6 +1,6 @@
 const bg = () => {
-  const KEY_UNSPLASH = "mUNDXdZc6ILSjrjUc4qtlvLSdC0kBf0AoktQdp_iSho";
-  const API_UNSPLASH = `https://api.unsplash.com/photos/random/?client_id=${KEY_UNSPLASH}&query=landscape&orientation=landscape`;
+  const API_UNSPLASH =
+    "https://u23oq5hfki.execute-api.ap-northeast-2.amazonaws.com/photos/random";
   const SEC_REFRESH = 3600;
 
   const body = document.querySelector("body"),
